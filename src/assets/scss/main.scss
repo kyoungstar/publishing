@@ -1,14 +1,5 @@
-$bgColor: #f7f7f7;
+@import "ini";
 
-.hello {
-  background: $bgColor;
-}
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: inline-block;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#root {
+  height: 100vh
 }

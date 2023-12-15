@@ -1,19 +1,18 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="App">
+    <MainHome></MainHome>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import MainHome from './components/MainHome.vue'
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    'MainHome' : MainHome
   }
 }
 </script>
 
 <style lang="scss" scoped>
-@import "/src/assets/scss/test.scss";
-
+@import "/src/assets/scss/main.scss";
 </style>
