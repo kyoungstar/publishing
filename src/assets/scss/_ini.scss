@@ -31,22 +31,11 @@ table{width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed}
 caption, legend{overflow:hidden;width:100%;height:0;line-height:normal;font-size:medium;opacity:0;word-break:break-all}
 fieldset, legend{position:relative;top:0;left:0}
 html {
-    -webkit-font-smoothing: antialiased
-  }
-  
-  body,html {
-    height: auto;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #fff
-  }
-
-  html {
+    -webkit-font-smoothing: antialiased;
     line-height: 1.15;
-    -webkit-text-size-adjust: 100%
-}
-
+    -webkit-text-size-adjust: 100%;
+    
+  }
 main {
     display: block
 }
@@ -191,4 +180,9 @@ summary {
 
 [hidden],template {
     display: none
+}
+* {
+    box-sizing: border-box;
+    font-family: Open Sans,sans-serif;
+    color: #484848;
 }
