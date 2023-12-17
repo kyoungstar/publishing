@@ -1,18 +1,18 @@
 <template>
   <div id="App">
     <NeoHeader></NeoHeader>
-    <MainHome></MainHome>
+    <ContainerMain></ContainerMain>
   </div>
 </template>
 
 <script>
-import MainHome from './components/MainHome.vue'
+import ContainerMain from './components/ContainerMain.vue'
 import NeoHeader from './components/NeoHeader.vue'
 
 export default {
   components: {
     'NeoHeader' : NeoHeader,
-    'MainHome' : MainHome
+    'ContainerMain' : ContainerMain
   }
 }
 </script>
