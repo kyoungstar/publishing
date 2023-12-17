@@ -1,8 +1,8 @@
 <template>
-  <div class="_2IrJm">
-    <main class="J9UpY _33Bc5">
+  <div class="wrapper_main">
+    <main class="wrapper_inner _33Bc5">
       <div style="width: 100%; position: relative; height: 100%;">
-        <div class="vJADg">
+        <div class="wrapper_cont">
           <div class="_1_RFj">
           </div>
           <Maincontent></Maincontent>

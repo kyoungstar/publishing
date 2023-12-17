@@ -1,6 +1,6 @@
 <template>
-    <nav class="_3UiAr">
-        <div class="_2RM-E">
+    <nav class="header">
+        <div class="header_2RM">
             <div class="_10wKD">
                 <div class="_5sz4t">
                     <div class="_3H--o">
@@ -16,8 +16,8 @@
             </div>
         </div>
         <a name="sign-in" class="btn TMMgS" data-role="login-button" href="/login?next=/features/creators">Sign In</a>
-        <div class="xPSLv">
-            <div class="HCJQe">
+        <div class="nav">
+            <div class="nav_HCJQe">
                 <div class="_2alre">
                     <div class="_2qJUS" data-test-hint="DropDownUserMenu-div-1">
                         <div class="_3-_ci"><div class="_3OqyK">

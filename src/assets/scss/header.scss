@@ -1,6 +1,6 @@
-@import "stroke";
+/*@import "stroke";*/
 
-._3UiAr {
+.header {
     position: fixed;
     z-index: 200;
     display: flex;
@@ -15,12 +15,12 @@
     transition: all .2s ease
 }
 @media (max-width: 768px) {
-    ._3UiAr {
+    .header {
         padding-left:0;
         padding-right: 0
     }
 }
-._3UiAr ._1eAI9 {
+.header ._1eAI9 {
     font-size: 20px;
     height: 50px;
     border: transparent;
@@ -29,16 +29,16 @@
     padding: .5rem 1rem
 }
 @media (max-width: 768px) {
-    ._3UiAr ._1eAI9 {
+    .header ._1eAI9 {
         width:auto;
         padding: 0 12px
     }
 }
-._3UiAr ._1eAI9._3A68P {
+.header ._1eAI9._3A68P {
     background-color: #f3f3f3
 }
 
-._3UiAr ._3Fboo {
+.header ._3Fboo {
     display: flex;
     border: 1px solid #d9d9db;
     border-radius: 4px;
@@ -47,38 +47,38 @@
     transition: all .2s
 }
 @media (hover: hover) and (pointer:fine) {
-    ._3UiAr ._3Fboo:hover:not([disabled]) {
+    .header ._3Fboo:hover:not([disabled]) {
         background-color:#f3f3f3
     }
 }
 
-._3UiAr ._3Fboo ._1AjeX {
+.header ._3Fboo ._1AjeX {
     margin-left: 8px;
     display: flex;
     flex-direction: column;
     gap: 2px
 }
 
-._3UiAr ._3Fboo ._3-53R {
+.header ._3Fboo ._3-53R {
     font-size: .875rem;
     font-weight: 600;
     white-space: nowrap
 }
 
-._3UiAr ._3Fboo ._3HOwT {
+.header ._3Fboo ._3HOwT {
     font-size: .75rem;
     white-space: nowrap;
     color: #757575
 }
-._3UiAr ._3Fboo ._11ygp {
+.header ._3Fboo ._11ygp {
     margin-left: 16px
 }
 
-._3UiAr ._3Fboo ._aPo9,._3UiAr .TMMgS {
+.header ._3Fboo ._aPo9,.header .TMMgS {
     font-size: .875rem
 }
 
-._3UiAr .TMMgS {
+.header .TMMgS {
     height: 32px;
     width: 100px;
     padding: 0 8px;
@@ -94,12 +94,12 @@
 }
 
 @media (hover: hover) and (pointer:fine) {
-    ._3UiAr .TMMgS:hover:not([disabled]) {
+    .header .TMMgS:hover:not([disabled]) {
         background-color:#f5122a
     }
 }
 
-._3UiAr ._17rdR {
+.header ._17rdR {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -113,11 +113,11 @@
     font-size: 20px
 }
 
-._3UiAr ._17rdR._3A68P {
+.header ._17rdR._3A68P {
     background-color: #f3f3f3
 }
 
-._3UiAr ._17rdR img {
+.header ._17rdR img {
     width: 29px;
     min-width: 29px;
     height: 29px;
@@ -126,23 +126,23 @@
 }
 
 @media (max-width: 768px) {
-    ._3UiAr ._17rdR {
+    .header ._17rdR {
         width:auto;
         padding-left: 12px;
         padding-right: 12px
     }
 }
 
-._3UiAr ::-webkit-scrollbar,._3UiAr ::-webkit-scrollbar-thumb {
+.header ::-webkit-scrollbar,.header ::-webkit-scrollbar-thumb {
     display: none!important
 }
 
 /**/
-._2RM-E {
+.header_2RM {
     width: 100%
 }
 
-._2RM-E,.HCJQe {
+.header_2RM,.nav_HCJQe {
     display: flex;
     align-items: center
 }
@@ -554,46 +554,46 @@
     font-family: "Font Awesome 6 Pro";
 }
 /**/
-.xPSLv {
+.nav {
     display: flex;
     align-items: center
 }
 
-.xPSLv:last-child {
+.nav:last-child {
     justify-content: flex-end
 }
 /**/
-._2RM-E,.HCJQe {
+.header_2RM,.nav_HCJQe {
     display: flex;
     align-items: center
 }
 
-.HCJQe ._3-_ci {
+.nav_HCJQe ._3-_ci {
     text-decoration: none;
     cursor: pointer
 }
 
-.HCJQe ._3trbx {
+.nav_HCJQe ._3trbx {
     width: 32px;
     min-width: 32px;
     height: 32px;
     min-height: 32px
 }
 
-.HCJQe ._3OqyK {
+.nav_HCJQe ._3OqyK {
     display: flex;
     flex-direction: column
 }
 
-.HCJQe ._3OqyK.Aa1ZD {
+.nav_HCJQe ._3OqyK.Aa1ZD {
     margin-top: -2px
 }
 
-.HCJQe ._3OqyK .B3L0S {
+.nav_HCJQe ._3OqyK .B3L0S {
     font-size: 1.4rem
 }
 
-.HCJQe ._3OqyK .khIne {
+.nav_HCJQe ._3OqyK .khIne {
     font-size: .85rem;
     width: 135px;
     line-height: 1.1rem;
@@ -602,18 +602,18 @@
     text-overflow: ellipsis
 }
 
-.HCJQe ._3OqyK ._30KUx {
+.nav_HCJQe ._3OqyK ._30KUx {
     font-weight: 600;
     font-size: .9rem
 }
 
-.HCJQe ._3OqyK ._1Uen5 {
+.nav_HCJQe ._3OqyK ._1Uen5 {
     margin-left: 5px;
     color: rgba(0,0,0,.5);
     transition: all .2s ease
 }
 
-.HCJQe ._3OqyK ._1NmNT {
+.nav_HCJQe ._3OqyK ._1NmNT {
     transform: rotate(180deg)
 }
 /**/
@@ -845,12 +845,12 @@
     color: #b2b2b8
 }
 /**/
-.HCJQe ._3-_ci {
+.nav_HCJQe ._3-_ci {
     text-decoration: none;
     cursor: pointer
 }
 /**/
-.HCJQe ._3OqyK .B3L0S {
+.nav_HCJQe ._3OqyK .B3L0S {
     font-size: 1.4rem
 }
 /**/
