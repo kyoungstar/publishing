@@ -5,7 +5,7 @@
         <div class="wrapper_cont">
           <div class="_1_RFj">
           </div>
-          <Maincontent></Maincontent>
+          <Maincontents></Maincontents>
           <MainSlider></MainSlider>
         </div>
       </div>
@@ -14,11 +14,11 @@
 </template>
 
 <script>
-import Maincontent from './MainContent.vue'
+import Maincontents from './MainContents.vue'
 import MainSlider from './MainSlider.vue'
 export default {
     components: {
-        'Maincontent' : Maincontent,
+        'Maincontents' : Maincontents,
         'MainSlider' : MainSlider
     }
 }
