@@ -23,3 +23,381 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: silver
 }
+
+input,textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: .875rem;
+  color: #1e1e1e;
+  background: #fff none;
+  background-clip: padding-box;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  font-family: inherit;
+  line-height: 1.25;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  font-weight: 400
+}
+
+input:disabled,textarea:disabled {
+  background-color: #f0f0f0!important;
+  cursor: not-allowed
+}
+
+input:active,input:focus,textarea:active,textarea:focus {
+  outline: none;
+  border-color: #979797
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+  color: #757575
+}
+
+input:-moz-placeholder,input::-moz-placeholder,textarea:-moz-placeholder,textarea::-moz-placeholder {
+  color: #757575
+}
+
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+  color: #757575
+}
+
+.input--has-error {
+  border-color: #f74356
+}
+
+.input-error {
+  margin: 4px 4px 0
+}
+
+.input-error small {
+  color: #f74356
+}
+
+textarea {
+  resize: none
+}
+
+input:-webkit-autofill,textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #fff inset
+}
+
+.standaloneTextButton {
+  color: #757575;
+  cursor: pointer
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6
+}
+
+.form-label--required:after {
+  display: inline;
+  color: red;
+  content: "*";
+  margin-left: 2px
+}
+
+.btn,button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .5rem 1rem;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+  text-decoration: none
+}
+
+.btn:disabled:not(.streaming-purchase),button:disabled:not(.streaming-purchase) {
+  color: 255,255,255,.7;
+  cursor: not-allowed
+}
+
+.btn:hover,button:hover {
+  text-decoration: none
+}
+
+.btn.block,button.block {
+  width: 100%
+}
+
+.btn:active,.btn:focus,button:active,button:focus {
+  outline: none
+}
+
+.btn.primary,button.primary {
+  color: #fff;
+  background-color: #f74356;
+  border-color: #f74356
+}
+
+.btn.primary i,button.primary i {
+  color: #fff
+}
+
+.btn.primary:hover,button.primary:hover {
+  color: #fff;
+  background-color: #f5122a;
+  border-color: #f5122a
+}
+
+.btn.streaming-purchase,button.streaming-purchase {
+  color: #fff;
+  background-color: #f74356;
+  border-color: #f74356;
+  width: 100%;
+  font-size: .9rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 1rem;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0
+}
+
+.btn.streaming-purchase.blue,button.streaming-purchase.blue {
+  background-color: #43a6f7;
+  border: 1px solid #43a6f7
+}
+
+.btn.streaming-purchase.blue:disabled,button.streaming-purchase.blue:disabled {
+  cursor: not-allowed
+}
+
+.btn.streaming-purchase:disabled:not(.blue),button.streaming-purchase:disabled:not(.blue) {
+  background-color: #f5122a;
+  cursor: not-allowed
+}
+
+.btn.streaming-purchase.full-rounded,button.streaming-purchase.full-rounded {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px
+}
+
+.btn.streaming-purchase.bottom-flat,button.streaming-purchase.bottom-flat {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0
+}
+
+@media (hover: hover) {
+  .btn.streaming-purchase:hover,button.streaming-purchase:hover {
+      background-color:#f5122a;
+      border-color: #f5122a
+  }
+
+  .btn.streaming-purchase:hover.blue,button.streaming-purchase:hover.blue {
+      background-color: #128ff5;
+      border-color: #128ff5
+  }
+}
+
+.btn.streaming-notify,button.streaming-notify {
+  color: #fff;
+  background-color: rgba(72,72,72,.5);
+  border: 1px solid rgba(72,72,72,.5);
+  width: 100%;
+  font-size: .9rem;
+  font-weight: 600;
+  padding: 1rem
+}
+
+.btn.streaming-notify.top-flat,button.streaming-notify.top-flat {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0
+}
+
+@media (hover: hover) {
+  .btn.streaming-notify:hover,button.streaming-notify:hover {
+      background-color:#2f2f2f;
+      border: 1px solid #2f2f2f
+  }
+}
+
+.btn.streaming-notify-enabled,button.streaming-notify-enabled {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid transparent;
+  width: 100%;
+  font-size: .8rem;
+  font-weight: 600;
+  padding: 1rem
+}
+
+.btn.streaming-notify-enabled.embed,button.streaming-notify-enabled.embed {
+  border: 1px solid rgba(72,72,72,.9);
+  color: rgba(72,72,72,.9)
+}
+
+@media (hover: hover) {
+  .btn.streaming-notify-enabled.embed:hover,button.streaming-notify-enabled.embed:hover {
+      border:1px solid rgba(72,72,72,.9)!important
+  }
+}
+
+.btn.streaming-notify-enabled.embed i,button.streaming-notify-enabled.embed i {
+  color: rgba(72,72,72,.9)!important
+}
+
+@media (hover: hover) {
+  .btn.streaming-notify-enabled:hover,button.streaming-notify-enabled:hover {
+      background-color:transparent;
+      border: 1px solid transparent
+  }
+}
+
+.btn.bordered,button.bordered {
+  background: none transparent;
+  color: rgba(0,0,0,.3);
+  border: 1px solid rgba(0,0,0,.3)
+}
+
+.btn.bordered:hover,button.bordered:hover {
+  color: rgba(0,0,0,.8)
+}
+
+.btn.success,button.success {
+  background-color: #4cd964;
+  color: #fff
+}
+
+.btn.success:hover,button.success:hover {
+  color: #2ac845;
+  color: #fff
+}
+
+.btn.primary-blue,button.primary-blue {
+  background-color: #43a6f7;
+  color: #fff;
+  border: 1px solid #43a6f7
+}
+
+.btn.primary-blue:disabled:not(.streaming-purchase),button.primary-blue:disabled:not(.streaming-purchase) {
+  color: 255,255,255,.7;
+  cursor: not-allowed
+}
+
+.btn.primary-blue:hover,button.primary-blue:hover {
+  color: #fff;
+  background-color: #128ff5;
+  border-color: #128ff5
+}
+
+.btn.pink,button.pink {
+  background-color: #e50282;
+  color: #fff;
+  border: 1px solid #e50282
+}
+
+.btn.pink:hover,button.pink:hover {
+  color: #fff;
+  background-color: #b20265;
+  border-color: #b20265
+}
+
+.btn.primary-light-blue,button.primary-light-blue {
+  background-color: #00bcd7;
+  color: #fff;
+  border: 1px solid #00bcd7
+}
+
+.btn.primary-light-blue:hover,button.primary-light-blue:hover {
+  color: #fff;
+  background-color: #00a6be;
+  border-color: #00a6be
+}
+
+.btn.primary-silver-to-blue,button.primary-silver-to-blue {
+  background-color: silver;
+  color: #fff;
+  border: 1px solid silver
+}
+
+.btn.primary-silver-to-blue:hover,button.primary-silver-to-blue:hover {
+  color: #fff;
+  background-color: #128ff5;
+  border-color: #128ff5
+}
+
+.btn.secondary,button.secondary {
+  background-color: #fff;
+  color: #43a6f7;
+  border: 1px solid #43a6f7
+}
+
+.btn.secondary:not([disabled]):hover,button.secondary:not([disabled]):hover {
+  background-color: #43a6f7;
+  color: #fff
+}
+
+.btn.transparent,button.transparent {
+  background-color: transparent
+}
+
+.btn.transparent-border-dark-blue,button.transparent-border-dark-blue {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff
+}
+
+.btn.transparent-border-dark-blue:not([disabled]):hover,button.transparent-border-dark-blue:not([disabled]):hover {
+  background-color: #43a6f7;
+  border: 1px solid #43a6f7;
+  color: #fff
+}
+
+.btn.transparent-border-light-blue,button.transparent-border-light-blue {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff
+}
+
+.btn.transparent-border-light-blue:not([disabled]):hover,button.transparent-border-light-blue:not([disabled]):hover {
+  background-color: #00bcd7;
+  border: 1px solid #00bcd7;
+  color: #fff
+}
+
+.btn.actionButton,button.actionButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 1
+}
+
+.btn.actionButton i,button.actionButton i {
+  font-size: 20px;
+  color: #484848
+}
+
+.btn.actionButton:hover,button.actionButton:hover {
+  background-color: rgba(95,99,104,.039)
+}
+
+.btn.actionButton:hover i,button.actionButton:hover i {
+  color: #151515
+}
+
+.download-link {
+  margin-top: 10px
+}
+
+.disabledIcon {
+  pointer-events: none
+}
+
+.disabledIcon>i {
+  color: #d9d9d9
+}
