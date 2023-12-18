@@ -172,10 +172,9 @@ export default {
       return {
         options: {
           responsive: [
-            /*{end: 1000, size: 1.2}, 
+            {end: 1000, size: 1.2}, 
             {start: 1000, end: 1600, size: 3.2},
-            {size: 5.2}*/
-            {size: 1.2}
+            {size: 5.2}
           ],
           list: {
             // 1200 because @media (min-width: 1200px) and therefore I want to switch to windowed mode
