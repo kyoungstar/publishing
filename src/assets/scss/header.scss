@@ -580,20 +580,20 @@
     min-height: 32px
 }
 
-.nav_HCJQe ._3OqyK {
+.nav_HCJQe .nav_wrap {
     display: flex;
     flex-direction: column
 }
 
-.nav_HCJQe ._3OqyK.Aa1ZD {
+.nav_HCJQe .nav_wrap.Aa1ZD {
     margin-top: -2px
 }
 
-.nav_HCJQe ._3OqyK .B3L0S {
+.nav_HCJQe .nav_wrap .B3L0S {
     font-size: 1.4rem
 }
 
-.nav_HCJQe ._3OqyK .khIne {
+.nav_HCJQe .nav_wrap .khIne {
     font-size: .85rem;
     width: 135px;
     line-height: 1.1rem;
@@ -602,18 +602,18 @@
     text-overflow: ellipsis
 }
 
-.nav_HCJQe ._3OqyK ._30KUx {
+.nav_HCJQe .nav_wrap ._30KUx {
     font-weight: 600;
     font-size: .9rem
 }
 
-.nav_HCJQe ._3OqyK ._1Uen5 {
+.nav_HCJQe .nav_wrap ._1Uen5 {
     margin-left: 5px;
     color: rgba(0,0,0,.5);
     transition: all .2s ease
 }
 
-.nav_HCJQe ._3OqyK ._1NmNT {
+.nav_HCJQe .nav_wrap ._1NmNT {
     transform: rotate(180deg)
 }
 /**/
@@ -850,7 +850,7 @@
     cursor: pointer
 }
 /**/
-.nav_HCJQe ._3OqyK .B3L0S {
+.nav_HCJQe .nav_wrap .B3L0S {
     font-size: 1.4rem
 }
 /**/
@@ -1184,4 +1184,68 @@
 
 .btn.actionButton:hover i,button.actionButton:hover i {
     color: #151515
+}
+/**/
+._1TW9y._1U0Sp {
+    display: flex;
+    align-items: center
+}
+
+._1TW9y._1U0Sp ._1l4EX,._1TW9y._1U0Sp ._2qclA {
+    border-radius: 50%
+}
+/**/
+._1TW9y._1U0Sp {
+    display: flex;
+    align-items: center
+}
+/**/
+._1l4EX,._2qclA {
+    width: 29px;
+    min-width: 29px;
+    height: 29px;
+    min-height: 29px
+}
+
+._2qclA {
+    object-fit: cover;
+    background-color: #fff
+}
+
+._1l4EX {
+    display: flex;
+    color: #484848;
+    background-color: #e6e6e6;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center
+}
+
+._1l4EX._24T1E i {
+    font-size: 50px
+}
+
+._1l4EX._2KO8X i {
+    font-size: 28px
+}
+/**/
+.nav_defalut {
+        opacity: 0;
+        display:none;
+        visibility: hidden;
+    &.menushow {
+        opacity: 1;
+        display: block;
+        visibility: visible;}
+}
+/**/
+.Ekka3 {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: rgba(0,0,0,.3);
+    z-index: 15;
+    animation: _1ELN_ .3s ease
 }

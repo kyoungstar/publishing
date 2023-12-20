@@ -18,22 +18,49 @@
         <div class="nav">
             <div class="nav_HCJQe">
                 <div class="_2alre">
-                    <div class="_2qJUS" data-test-hint="DropDownUserMenu-div-1">
-                        <div class="_3-_ci"><div class="_3OqyK">
-                            <i class="far fa-bars B3L0S" aria-hidden="true"></i>
+                    <div @click="toggleVisibleMenu" class="_2qJUS" >
+                        <div class="_3-_ci">
+                            <div class="nav_wrap">
+                                <i class="far fa-bars B3L0S" aria-hidden="true"></i>
+                                <!--로그인 후
+                                <div class="_1TW9y _1U0Sp">
+                                    <span class="_1l4EX _3trbx">ID</span>
+                                </div>
+                                -->
+                            </div>
                         </div>
                     </div>
+                    <div class="nav_defalut" :class="{ menushow: isNavPC }">
+                        <MenuDesktop></MenuDesktop>
+                    </div>
+                    
                 </div>
+                <button aria-label="Open cart" name="open-cart" class="_268AS" data-abbey="VIEW_CART_SIDEBAR'" data-test-hint="MainNav-button-3"><img alt="Cart icon" src="../assets/images/tsl-logo-color.svg" height="16" width="24" data-abbey="VIEW_CART_SIDEBAR'"></button>
             </div>
-            <button aria-label="Open cart" name="open-cart" class="_268AS" data-abbey="VIEW_CART_SIDEBAR'" data-test-hint="MainNav-button-3"><img alt="Cart icon" src="../assets/images/tsl-logo-color.svg" height="16" width="24" data-abbey="VIEW_CART_SIDEBAR'"></button>
         </div>
-        </div>
+        <div class="Ekka3 nav_defalut" :class="{ menushow: isNavPC }"></div>
     </nav>
 </template>
 
 <script>
+import MenuDesktop from './MenuDesktop.vue'
+
 export default {
-   
+    components: {
+    'MenuDesktop' : MenuDesktop,
+    
+    },
+    data() {
+        return {
+            isNavPC: false,
+        };
+    },
+    methods: {
+        toggleVisibleMenu() {
+            this.isNavPC = !this.isNavPC;
+        }
+    }
+
 }
 </script>
 
