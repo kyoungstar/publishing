@@ -33,31 +33,45 @@
                     <div class="nav_defalut" :class="{ menushow: isNavPC }">
                         <MenuDesktop></MenuDesktop>
                     </div>
-                    
+                    <div class="nav_defalut" :class="{ menushow: isNavMb }">
+                        <MenuMobile></MenuMobile>
+                    </div>
                 </div>
                 <button aria-label="Open cart" name="open-cart" class="_268AS" data-abbey="VIEW_CART_SIDEBAR'" data-test-hint="MainNav-button-3"><img alt="Cart icon" src="../assets/images/tsl-logo-color.svg" height="16" width="24" data-abbey="VIEW_CART_SIDEBAR'"></button>
             </div>
         </div>
-        <div class="Ekka3 nav_defalut" :class="{ menushow: isNavPC }"></div>
+        <div class="bm-overlay nav_defalut" :class="{ menushow: isOverlay }"></div>
     </nav>
 </template>
 
 <script>
 import MenuDesktop from './MenuDesktop.vue'
+import MenuMobile from './MenuMobile.vue'
 
 export default {
     components: {
     'MenuDesktop' : MenuDesktop,
-    
+    'MenuMobile' : MenuMobile,
     },
     data() {
         return {
             isNavPC: false,
+            isNavMb: false,
+            showOverlay: false
         };
     },
     methods: {
         toggleVisibleMenu() {
-            this.isNavPC = !this.isNavPC;
+            var mobileTablet = /Android|Mobile|iP(hone|od|ad)|BlackBerry|IEMobile|Kindle|NetFront|Silk-Accelerated|(hpw|web)OS|Fennec|Minimo|Opera M(obi|ini)|Blazer|Dolfin|Dolphin|Skyfire|Zune/;
+            //모바일 일때 모바일 메뉴 활성화
+            if (navigator.userAgent.match(mobileTablet)) {
+                this.isNavMb = !this.isNavMb;
+            //PC 일때 PC메뉴 활성화    
+            } else { 
+                this.isNavPC = !this.isNavPC;
+            }
+            //overLay
+            this.isOverlay = !this.isOverlay;
         }
     }
 

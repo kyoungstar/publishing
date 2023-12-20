@@ -416,3 +416,23 @@ input:-webkit-autofill,textarea:-webkit-autofill {
       opacity: 1
   }
 }
+
+@-webkit-keyframes menuOn { from { -webkit-right: -240px;
+  right: -240px; }
+to { -webkit-right: 0;
+  right: 0; } }
+
+@keyframes menuOn { from { -webkit-right: -240px;
+  right: -240px; }
+to { -webkit-right: 0;
+  right: 0; } }
+
+@-webkit-keyframes menuOff { from { -webkit-right: 0;
+  right: 0; }
+to { -webkit-right: -240px;
+  right: -240px; } }
+
+@keyframes menuOff { from { -webkit-right: 0;
+  right: 0; }
+to { -webkit-right: -240px;
+  right: -240px; } }

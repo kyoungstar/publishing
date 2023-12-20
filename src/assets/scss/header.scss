@@ -1233,13 +1233,25 @@
         opacity: 0;
         display:none;
         visibility: hidden;
+        @media (max-width: 768px) {
+            .bm-menu-wrap {
+                -webkit-animation: menuOff 0.5s both; animation: menuOff 0.5s both; -webkit-animation-timing-function: easeInOutQuint; animation-timing-function: easeInOutQuint;
+            }
+        }
     &.menushow {
         opacity: 1;
         display: block;
-        visibility: visible;}
+        visibility: visible;
+        @media (max-width: 768px) {
+            .bm-menu-wrap {
+                -webkit-animation: menuOn 0.5s both; animation: menuOn 0.5s both; -webkit-animation-timing-function: easeInOutQuint; animation-timing-function: easeInOutQuint;
+            }
+        }
+    }
+
 }
 /**/
-.Ekka3 {
+.bm-overlay {
     position: fixed;
     top: 50px;
     left: 0;
