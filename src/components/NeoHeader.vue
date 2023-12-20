@@ -57,7 +57,7 @@ export default {
         return {
             isNavPC: false,
             isNavMb: false,
-            showOverlay: false
+            isOverlay: false
         };
     },
     methods: {
