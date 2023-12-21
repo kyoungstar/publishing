@@ -19,7 +19,7 @@
         <div class="_3tOA9" data-test-hint="SizzlePlayer-div-1">
             <div class="E1vV4" data-test-hint="SizzlePlayer-div-2">
                 <video class="_3EKmG" autoplay="" playsinline="" loop="" id="homepage-sizzle-player" controls="">
-                <source src="https://assets.talkshop.live/uploads/sizzle.mp4"/>
+                <!--<source src="https://assets.talkshop.live/uploads/sizzle.mp4"/>-->
                 </video>
             </div>
         </div>
