@@ -1,10 +1,10 @@
 <template>
-    <div id="" class="bm-menu-wrap" aria-hidden="false" style="position: absolute; right: 0px; z-index: 1002; width: 400px; height: 100%; transition: all 0.5s ease 0s;">
-        <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">
-            <nav class="bm-item-list" style="height: 100%;">
+    <div id="" class="live-menu-wrap"  v-bind:class="{hideLeft: showLeft == 'false'}" aria-hidden="false">
+        <div class="live-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">
+            <nav class="live-item-list" style="height: 100%;">
                 
-                <div class="bm-item _3P0DQ" tabindex="-1" style="display: block;">
-                    <button v-bind:class="active" name="collapse-menu" class="_1mm4Q" data-abbey="COLLAPSE_SIDEBAR" data-test-hint="StreamView-button-1">
+                <div class="live-item _3P0DQ" tabindex="-1" style="display: block;">
+                    <button v-on:click="hideSlider()" name="collapse-menu" class="_1mm4Q" data-abbey="COLLAPSE_SIDEBAR" data-test-hint="StreamView-button-1">
                         <i class="fa fa-chevron-right" data-abbey="COLLAPSE_SIDEBAR" aria-hidden="true"></i>
                     </button>
                     <div id="tab-container" class="_144Pt">
@@ -413,6 +413,15 @@ export default {
     data() {
         return {
             currentTab: 0,
+        }
+    },
+    methods: {
+        hideSlider() {
+            if (this.$parent.showLeft == 'true') {
+                this.$parent.showLeft = 'false';
+                this.$parent.hideControl = 'false';
+                this.$parent.offSlide = 'true'
+            }
         }
     }
 }
