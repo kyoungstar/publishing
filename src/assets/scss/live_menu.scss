@@ -1064,39 +1064,39 @@
     line-height: .83;
     align-items: center
 }
-._3LbkP {
+.ico_chat {
     margin-left: 10px
 }
 
-._3LbkP i {
+.ico_chat i {
     color: rgba(67,166,247,.7);
     transition: all .2s ease-in-out
 }
 
 @media (max-width: 768px) {
-    ._3LbkP i {
+    .ico_chat i {
         font-size:1.2rem
     }
 }
 
 @media (hover: hover) and (pointer:fine) {
-    ._3LbkP i:hover:not([disabled]) {
+    .ico_chat i:hover:not([disabled]) {
         cursor:pointer!important
     }
 }
 
 @media (hover: hover) and (pointer:fine) {
-    ._3LbkP:hover:not([disabled]):hover:not(._2pN4f) i {
+    .ico_chat:hover:not([disabled]):hover:not(.inert) i {
         color:#43a6f7
     }
 }
 
-._3LbkP._2pN4f i {
+.ico_chat.inert i {
     color: #d9d9d9
 }
 
 @media (hover: hover) and (pointer:fine) {
-    ._3LbkP._2pN4f i:hover:not([disabled]) {
+    .ico_chat.inert i:hover:not([disabled]) {
         cursor:not-allowed!important
     }
 }

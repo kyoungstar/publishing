@@ -98,10 +98,10 @@
                                             <div class="TJWIi">
                                                 <div class="LuNR9">park k</div>
                                                 <div>
-                                                    <a class="_3LbkP" role="button" data-abbey="OPEN_GIPHY" data-test-hint="CommentForm-a-1">
+                                                    <a class="ico_chat inert" role="button" data-abbey="OPEN_GIPHY" data-test-hint="CommentForm-a-1">
                                                         <i class="fa-regular fa-gif" data-abbey="OPEN_GIPHY" aria-hidden="true"></i>
                                                     </a>
-                                                    <a class="_3LbkP _2pN4f" role="button" data-test-hint="CommentForm-a-2">
+                                                    <a class="ico_chat" role="button" data-test-hint="CommentForm-a-2">
                                                         <i class="fa fa-paper-plane" aria-hidden="true"></i>
                                                     </a>
                                                 </div>
