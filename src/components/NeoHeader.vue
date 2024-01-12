@@ -37,7 +37,10 @@
                         <MenuMobile></MenuMobile>
                     </div>
                 </div>
-                <button aria-label="Open cart" name="open-cart" class="_268AS" data-abbey="VIEW_CART_SIDEBAR'" data-test-hint="MainNav-button-3"><img alt="Cart icon" src="../assets/images/tsl-logo-color.svg" height="16" width="24" data-abbey="VIEW_CART_SIDEBAR'"></button>
+                <button @click="cartMenu()" aria-label="Open cart" name="open-cart" class="_268AS" data-abbey="VIEW_CART_SIDEBAR'" data-test-hint="MainNav-button-3"><img alt="Cart icon" src="../assets/images/tsl-logo-color.svg" height="16" width="24" data-abbey="VIEW_CART_SIDEBAR'"></button>
+                <div :class="{'openCart':fnCart === 'true','closeCart':fnCart === 'false','setCart':fnCart === 'set'}">
+                    <MenuCart></MenuCart>
+                </div>
             </div>
         </div>
         <div class="bm-overlay nav_defalut" :class="{ menushow: isOverlay }"></div>
@@ -47,17 +50,20 @@
 <script>
 import MenuDesktop from './MenuDesktop.vue'
 import MenuMobile from './MenuMobile.vue'
+import MenuCart from './MenuCart.vue'
 
 export default {
     components: {
     'MenuDesktop' : MenuDesktop,
     'MenuMobile' : MenuMobile,
+    'MenuCart' : MenuCart,
     },
     data() {
         return {
             isNavPC: false,
             isNavMb: false,
-            isOverlay: false
+            isOverlay: false,
+            fnCart: 'set',
         };
     },
     methods: {
@@ -70,11 +76,23 @@ export default {
             } else { 
                 this.isNavPC = !this.isNavPC;
             }
-            //overLay
-            this.isOverlay = !this.isOverlay;
+            if (this.fnCart == 'true'){//장바구니가 열려있을 경우
+                this.fnCart = 'false';
+            } else {
+                this.isOverlay = !this.isOverlay;
+            }
+        },
+        cartMenu() {
+            this.fnCart == 'true'?this.fnCart = 'false':this.fnCart = 'true';
+            if (this.isNavMb || this.isNavPC){//메뉴가 열려있을 경우
+                this.isNavMb = false;
+                this.isNavPC = false;
+            } else {
+                this.isOverlay = !this.isOverlay;
+            }
+
         }
     }
-
 }
 </script>
 
