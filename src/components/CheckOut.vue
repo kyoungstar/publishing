@@ -385,7 +385,6 @@
                                         <a class="PWPP8 _2904Q _3QLI9 _3ZCRK" style="min-width: 88px;">Save &amp; Continue</a>
                                     </div>
                                 </div>
-                                <div class="_3IqSr"><div class="_19k84"><a class="PWPP8 _2904Q _3QLI9 _3ZCRK" style="min-width: 88px;">Update Address</a><div style="width: 16px; flex-shrink: 0;"></div><a class="PWPP8 _2904Q qLima" style="min-width: 88px;">Cancel</a><button class="button transparent _3aqOF" data-test-hint="AddressForm-button-1"><i class="fa fa-trash" aria-hidden="true"></i></button></div></div>
                             </form>
                         </div>
                     </div>

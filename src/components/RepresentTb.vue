@@ -81,7 +81,7 @@
             </div>
             <div class="tb-referenceBtns">
                 <button class="btn_point">제품 추가</button>
-                <button class="btn_normal">제품 삭제</button>
+                <button class="transparent"><i class="fa fa-trash" aria-hidden="true"></i></button>
             </div>
             <table>
                 <caption>제품 목록</caption>
@@ -127,7 +127,7 @@
             <div class="tb-referenceBtns">
                 <button class="btn_point">제품 추가</button>
                 <button class="btn_normal">저장</button>
-                <button class="btn_normal">삭제</button>
+                <button class="transparent"><i class="fa fa-trash" aria-hidden="true"></i></button>
             </div>
             <table>
                 <caption>제품정보목록</caption>
