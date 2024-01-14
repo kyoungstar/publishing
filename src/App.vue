@@ -8,6 +8,7 @@
     <ChannelDetails></ChannelDetails>
     <CheckOut></CheckOut><!--Add shipping address, 주문리스트, 결제정보, 주문자동의-->
     <RepresentTb></RepresentTb><!--Table Sample-->
+    <RecommendedProducts></RecommendedProducts><!--RecommendedProducts-->
     <NeoFooter></NeoFooter>
     <LivePage></LivePage><!--방송페이지-->
     
@@ -24,6 +25,7 @@ import CreateChannel from './components/CreateChannel.vue'
 import ChannelDetails from './components/ChannelDetails.vue'
 import CheckOut from './components/CheckOut.vue'
 import RepresentTb from './components/RepresentTb.vue'
+import RecommendedProducts from './components/RecommendedProducts.vue'
 
 export default {
   components: {
@@ -36,6 +38,7 @@ export default {
     'ChannelDetails' : ChannelDetails,
     'CheckOut' : CheckOut,
     'RepresentTb' : RepresentTb,
+    'RecommendedProducts' : RecommendedProducts,
   }
 }
 
