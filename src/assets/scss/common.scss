@@ -457,6 +457,25 @@ right: 0; }
 to { -webkit-right: -320px;
 right: -320px; } }
 
+@-webkit-keyframes liveOn { from { -webkit-right: -450px;
+  right: -450px; }
+  to { -webkit-right: 0;
+  right: 0; } }
+  
+  @keyframes liveOn { from { -webkit-right: -450px;
+  right: -450px; }
+  to { -webkit-right: 0;
+  right: 0; } }
+  
+  @-webkit-keyframes liveOff { from { -webkit-right: 0;
+  right: 0; }
+  to { -webkit-right: -450px;
+  right: -450px; } }
+  
+  @keyframes liveOff { from { -webkit-right: 0;
+  right: 0; }
+  to { -webkit-right: -450px;
+  right: -450px; } }
 
 
   .row {
