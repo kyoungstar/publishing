@@ -417,8 +417,8 @@ export default {
     },
     methods: {
         hideSlider() {
-            if (this.$parent.showLeft == 'true') {
-                this.$parent.showLeft = 'false';
+            if (this.$parent.showLeft == 'false') {
+                this.$parent.showLeft = 'true';
                 this.$parent.hideControl = 'false';
                 this.$parent.offSlide = 'true'
             }

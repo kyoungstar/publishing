@@ -96,12 +96,13 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="_2tIQ0">
+
+                                </div>
+                                <div class="_2tIQ0" style="position:absolute;top:0">
                                         <div id="outer-container">
                                             <LiveMenu v-bind:class="[{showLeft: showLeft == 'true'},{offSlide: offSlide == 'true'}]"></LiveMenu>
                                         </div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -124,13 +125,13 @@ export default {
         return {
             offSlide: 'false',
             showLeft: 'false',
-            hideControl:'false',
+            hideControl:'true',
         }
     },
     methods: {
         addSlider() {
-            if (this.showLeft === 'false') {
-                this.showLeft = 'true';
+            if (this.showLeft === 'true') {
+                this.showLeft = 'false';
                 this.hideControl = 'true';
                 this.offSlide = 'false'
             }

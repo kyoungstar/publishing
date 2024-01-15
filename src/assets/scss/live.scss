@@ -10,11 +10,7 @@
             width: 100%;
         }
         @media (min-width: 769px) {
-            opacity: 0;
-            z-index: -1;
             &.showLeft {
-                opacity: 1;
-                z-index: 0;
                 -webkit-animation: liveOn 0.5s both; animation: liveOn 0.5s both; -webkit-animation-timing-function: easeInOutQuint; animation-timing-function: easeInOutQuint;
             }
             &.offSlide {
