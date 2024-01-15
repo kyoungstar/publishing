@@ -39,7 +39,7 @@
                                                         <span>0/25</span>
                                                     </div>
                                                 </div>
-                                                <div class="_3zHna">
+                                                <div class="_3zHna" style="text-align:left">
                                                     Your unique <em>brand name</em> that will distinguish your shows and products. It will be public-facing and used as a way for your customers to identify you.
                                                 </div>
                                             </div>
