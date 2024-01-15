@@ -4,7 +4,7 @@
             <div class="_10wKD">
                 <div class="_5sz4t">
                     <div class="_3H--o">
-                        <a name="visit-home-page-1" class="_3TXr5" data-test-hint="SearchBox-Link-1" href="/"><img src="https://assets.talkshop.live/images/tsl-logo-talkshoplive_r.svg" alt="talkshoplive" height="30" width="158"></a>
+                        <a name="visit-home-page-1" class="_3TXr5" data-test-hint="SearchBox-Link-1" href="/"><img src="../assets/images/tsl-logo-talkshoplive_r.svg" alt="talkshoplive" height="30" width="158"></a>
                         <div class="_3pGxH">
                             <i class="far fa-search _3t6Z3" aria-hidden="true">
                             </i>                       

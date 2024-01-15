@@ -52,7 +52,7 @@
                     <tr>
                         <td data-label="미리보기 이미지" class="left">
                             <span class="img_wrap">
-                                <img src="https://cdn.talkshop.live/eyJidWNrZXQiOiJ0c2wtaW1hZ2VzLXByb2R1Y3Rpb24iLCJrZXkiOiJ2YXJpYW50X2ltYWdlcy83MzY2NTU5L29yaWdpbmFsLzk4ZGVncmVlcy05OC1kZWdyZWVzLWZ1bGwtY2lyY2xlLWNkLXNpZ25lZC11LXMuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2MDAsImZpdCI6ImNvbnRhaW4ifX19">
+                                <img src="../assets/images/temp3.jpeg">
                             </span>
                         </td>
                         <td data-label="라이브구분">녹화방송</td>

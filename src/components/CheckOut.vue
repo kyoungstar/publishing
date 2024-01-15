@@ -6,7 +6,7 @@
                 <div class="_21sfQ">
                     <div class="Y46M3">
                         <a data-abbbey="SELECT_CONTINUE_SHOPPING_CHECKOUT" class="_1_BO4" data-test-hint="Navbar-Link-1" href="/watch/jQMSA0mjY4bU">
-                            <img data-abbbey="SELECT_CONTINUE_SHOPPING_CHECKOUT" src="https://assets.talkshop.live/images/tsl-logo-talkshoplive_r.svg">
+                            <img data-abbbey="SELECT_CONTINUE_SHOPPING_CHECKOUT" src="../assets/images/tsl-logo-talkshoplive_r.svg">
                         </a>
                         <div class="_1LBuA">Checkout
                             <span class="Usd2h"> 
