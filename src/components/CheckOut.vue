@@ -123,7 +123,7 @@
                                                 <div class="react-phone-number-input__row">
                                                     <div class="react-phone-number-input__country react-phone-number-input__country--native">
                                                         <div class="react-phone-number-input__icon">
-                                                            <img alt="US" class="react-phone-number-input__icon-image" src="https://assets.talkshop.live/flags/4x3/us.svg">
+                                                            <img alt="US" class="react-phone-number-input__icon-image" src="../assets/images/us.svg">
                                                         </div>
                                                         <select name="phone__country" aria-label="Country" class="react-phone-number-input__country-select">
                                                             <option value="ZZ">International</option>

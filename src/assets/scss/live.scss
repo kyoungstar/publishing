@@ -11,8 +11,10 @@
         }
         @media (min-width: 769px) {
             opacity: 0;
+            z-index: -1;
             &.showLeft {
                 opacity: 1;
+                z-index: 0;
                 -webkit-animation: liveOn 0.5s both; animation: liveOn 0.5s both; -webkit-animation-timing-function: easeInOutQuint; animation-timing-function: easeInOutQuint;
             }
             &.offSlide {
@@ -768,7 +770,7 @@
     background-color: rgba(0,0,0,.5);
     height: 25px;
     width: 25px;
-    background-image: url(https://talkshop.live/public/icons/share-icon.svg);
+    background-image: url(../assets/images/share-icon.svg);
     background-size: 21px 20px;
     background-repeat: no-repeat;
     background-position: 50%
@@ -1290,7 +1292,7 @@
 }
 
 ._3WXVr ._2a6Cl ._1-TrG {
-    background-image: url(https://talkshop.live/public/icons/share-icon.svg);
+    background-image: url(../assets/images/share-icon.svg);
     background-size: 31px 30px;
     background-repeat: no-repeat;
     background-position: 50%;

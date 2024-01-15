@@ -80,7 +80,7 @@
                                         </div>
                                     </div>
                                     <div class="_4VCte _3NIEO">
-                                        <a class="_1J_Dm" role="button" data-abbey-product-key="Arw8TAw51GMY" data-abbey-variant-id="173845" data-abbey="SELECT_REMOVE_FROM_CART_PRODUCT_DETAILS" data-test-hint="ProductInCart-a-1">
+                                        <a class="_1J_Dm" href="#" role="button" data-abbey-product-key="Arw8TAw51GMY" data-abbey-variant-id="173845" data-abbey="SELECT_REMOVE_FROM_CART_PRODUCT_DETAILS" data-test-hint="ProductInCart-a-1">
                                             <i class="fa-light fa-trash-can" data-abbey-product-key="Arw8TAw51GMY" data-abbey-variant-id="173845" data-abbey="SELECT_REMOVE_FROM_CART_PRODUCT_DETAILS" aria-hidden="true"></i>
                                         </a>
                                     </div>
@@ -119,7 +119,7 @@
                                         </div>
                                     </div>
                                     <div class="_4VCte _3NIEO">
-                                        <a class="_1J_Dm" role="button" data-abbey-product-key="_8OoejtOiBPR" data-abbey-variant-id="170852" data-abbey="SELECT_REMOVE_FROM_CART_PRODUCT_DETAILS" data-test-hint="ProductInCart-a-1">
+                                        <a class="_1J_Dm" href="#" role="button" data-abbey-product-key="_8OoejtOiBPR" data-abbey-variant-id="170852" data-abbey="SELECT_REMOVE_FROM_CART_PRODUCT_DETAILS" data-test-hint="ProductInCart-a-1">
                                             <i class="fa-light fa-trash-can" data-abbey-product-key="_8OoejtOiBPR" data-abbey-variant-id="170852" data-abbey="SELECT_REMOVE_FROM_CART_PRODUCT_DETAILS" aria-hidden="true"></i>
                                         </a>
                                     </div>
