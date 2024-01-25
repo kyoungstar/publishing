@@ -6,6 +6,7 @@
     <LoginPage></LoginPage><!--로그인페이지-->
     <CreateChannel></CreateChannel><!--채널만들기-->
     <ChannelDetails></ChannelDetails>
+    <ProFile></ProFile><!--profile-->
     <CheckOut></CheckOut><!--Add shipping address, 주문리스트, 결제정보, 주문자동의-->
     <RepresentTb></RepresentTb><!--Table Sample-->
     <RecommendedProducts></RecommendedProducts><!--RecommendedProducts-->
@@ -22,6 +23,7 @@ import LoginPage from './components/LoginPage.vue'
 import LivePage from './components/LivePage.vue'
 import NeoFooter from './components/NeoFooter.vue'
 import CreateChannel from './components/CreateChannel.vue'
+import ProFile from './components/ProFile.vue'
 import ChannelDetails from './components/ChannelDetails.vue'
 import CheckOut from './components/CheckOut.vue'
 import RepresentTb from './components/RepresentTb.vue'
@@ -35,6 +37,7 @@ export default {
     'LivePage' : LivePage,
     'NeoFooter' : NeoFooter,
     'CreateChannel' : CreateChannel,
+    'ProFile' : ProFile,
     'ChannelDetails' : ChannelDetails,
     'CheckOut' : CheckOut,
     'RepresentTb' : RepresentTb,
